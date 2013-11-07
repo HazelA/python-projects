@@ -1,3 +1,5 @@
+# by Daniel O'Prey
+
 from sympy.mpmath import mp
 from sys import exit
 

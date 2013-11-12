@@ -8,7 +8,7 @@ Numbers
 
 **Fibonacci Sequence** - [python](https://github.com/danoprey/python-projects/blob/master/Numbers/fibonacci-nth.py) - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
-**Prime Factorization** - [python](https://github.com/danoprey/python-projects/blob/master/Numbers/prime-factors.py) Have the user enter a number and find all Prime Factors (if there are any) and display them.
+**Prime Factorization** - [python](https://github.com/danoprey/python-projects/blob/master/Numbers/prime-factors.py) - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
 **Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
@@ -43,7 +43,7 @@ Numbers
 Classic Algorithms
 -----------------
 
-**Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
+**Collatz Conjecture** - [python](https://github.com/danoprey/python-projects/blob/master/Classic Algorithms/collatz.py) - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
 
 **Sorting** - Implement two types of sorting algorithms: Merge sort and bubble sort.
 

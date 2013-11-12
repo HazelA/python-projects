@@ -9,17 +9,14 @@ def collatz(num, steps):
         print('Completed in', steps, 'steps')
         inp_user()
     
-    steps += 1
-    
     if num % 2 == 0:
         print('Step', steps, ': ', int(num), 'is even, dividing by 2')
         num /= 2
-        collatz(num, steps)
+        collatz(num, steps + 1)
     else:
         print('Step', steps, ': ', int(num), 'is odd, multiplying by 3 and adding 1')
-        num *= 3
-        num += 1
-        collatz(num, steps)
+        num = num * 3 + 1
+        collatz(num, steps + 1)
 
 def inp_user():
     """
@@ -29,7 +26,7 @@ def inp_user():
     try:
         num = int(input('Please enter a number larger than 1: '))
         if num > 1:
-            collatz(num, 0)
+            collatz(num, 1)
         else:
             print('The number must be larter than 1')
             inp_user()

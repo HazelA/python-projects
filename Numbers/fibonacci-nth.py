@@ -22,13 +22,13 @@ def inp_user():
     Takes an input from the user, exception handles until its an integer and then calls fib_digits
     """
 
-    inp_digits = input('How many digits? ')
     try:
-        fib_digits(int(inp_digits), "", 1, 0)
+        fib_digits(int(input('How many digits? ')), "", 1, 0)
     except ValueError:
         print('Please enter a number')
         inp_user()
     except:
         exit()
-
-inp_user()
+        
+if __name__ == '__main__':
+    inp_user()

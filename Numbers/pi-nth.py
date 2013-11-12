@@ -18,4 +18,5 @@ def pi_digits():
 
     pi_digits()
 
-pi_digits()
+if __name__ == '__main__':
+    pi_digits()

@@ -4,13 +4,13 @@ Dan's Mega Project List
 Numbers
 ---------
 
-**Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
+**Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.  
 Solutions: [python](https://github.com/danoprey/python-projects/blob/master/Numbers/pi-nth.py)
 
-**Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+**Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.  
 Solutions: [python](https://github.com/danoprey/python-projects/blob/master/Numbers/fibonacci-nth.py)
 
-**Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+**Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.  
 Solutions: [python](https://github.com/danoprey/python-projects/blob/master/Numbers/prime-factors.py)
 
 **Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
@@ -46,7 +46,7 @@ Solutions: [python](https://github.com/danoprey/python-projects/blob/master/Numb
 Classic Algorithms
 -----------------
 
-**Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
+**Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.  
 Solutions: [python](https://github.com/danoprey/python-projects/blob/master/Classic Algorithms/collatz.py)
 
 **Sorting** - Implement two types of sorting algorithms: Merge sort and bubble sort.
@@ -82,8 +82,7 @@ Solutions: [python](https://github.com/danoprey/python-projects/blob/master/Text
 
 **Count Vowels** - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
 
-**Check if Palindrome** - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
-
+**Check if Palindrome** - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”  
 Solutions: [python](https://github.com/danoprey/python-projects/blob/master/Text/palindrome.py)
 
 **Count Words in a String** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.

@@ -23,15 +23,14 @@ def inp_user():
     Takes an input from the user, exception handles until its an integer and then calls fib_digits
     """
 
+    msg = 'Please enter a number larger than 1: '
     try:
-        num = int(input('Please enter a number larger than 1: '))
+        num = int(input(msg))
         if num > 1:
             collatz(num, 1)
         else:
-            print('The number must be larter than 1')
             inp_user()
     except ValueError:
-        print('Please enter a number larger than 1')
         inp_user()
     except:
         exit()

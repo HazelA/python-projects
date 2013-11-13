@@ -1,6 +1,9 @@
 # by Daniel O'Prey
 
 def dec2bin(mod):
+    """
+    Takes a decimay integer and returns it in binary
+    """
     bits = []
     
     while mod >= 1:
@@ -10,6 +13,9 @@ def dec2bin(mod):
     return ''.join(bits)[::-1]
 
 def bin2dec(string):
+    """
+    Takes a binary integer and returns it in decimal
+    """
     strrev = str(string)[::-1]
     dec = 0
     n = 1

@@ -9,10 +9,16 @@ def dec2bin(mod):
         
     return ''.join(bits)[::-1]
 
-def bin2dec(mod):
-    result = val
-    print(val, 'in binary is', result)
-    inp_user()
+def bin2dec(string):
+    strrev = str(string)[::-1]
+    dec = 0
+    n = 1
+    
+    for i in strrev:
+        dec += int(i) * n
+        n *= 2
+    
+    return dec
 
 def inp_user():
     """

@@ -22,6 +22,7 @@ Solutions: [python](https://github.com/danoprey/python-projects/blob/master/Numb
 **Change Return Program** - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
 
 **Binary to Decimal and Back Converter** - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
+Solutions: [python](https://github.com/danoprey/python-projects/blob/master/Numbers/bin2dec.py)
 
 **Calculator** - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 
@@ -42,6 +43,10 @@ Solutions: [python](https://github.com/danoprey/python-projects/blob/master/Numb
 **Happy Numbers** - A happy number is defined by the following process. Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers. Display an example of your output here. Find first 8 happy numbers.
 
 **Number Names** - Show how to spell out a number in English. You can use a preexisting implementation or roll your own, but you should support inputs up to at least one million (or the maximum value of your language's default bounded integer type, if that's less). *Optional: Support for inputs other than positive integers (like zero, negative integers, and floating-point numbers).*
+
+Additional:
+
+**Parental Half Life** - Given the age of a child and both their parents' ages, calculate the year the child will be older than half of the parents' average ages. Use the system's clock for the current year.
 
 Classic Algorithms
 -----------------

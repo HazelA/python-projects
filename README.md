@@ -46,7 +46,8 @@ Solutions: [python](https://github.com/danoprey/python-projects/blob/master/Numb
 
 Additional:
 
-**Parental Half Life** - Given the age of a child and both their parents' ages, calculate the year the child will be older than half of the parents' average ages. Use the system's clock for the current year.
+**Parental Half Life** - Given the age of a child and both their parents' ages, calculate the year the child will be older than half of the parents' average ages. Use the system's clock for the current year.  
+Solutions: [python](https://github.com/danoprey/python-projects/blob/master/Numbers/parent-halflife.py)
 
 Classic Algorithms
 -----------------
